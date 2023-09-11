@@ -17,7 +17,7 @@ Open the webserver.py file and adjust the following variables as needed:
 base: The directory where your web server will serve files from (default is "htdocs").
 host: The host or IP address on which your server will listen (default is "127.0.0.1").
 port: The port on which your server will listen (default is 2728).
-If you plan to use PHP, ensure you have PHP installed and set the php_path variable in the webserver.py file to the correct PHP executable path.
+If you plan to use PHP, ensure you have PHP installed and set the php_path variable in the server.py file to the correct PHP executable path.
 
 ## Running the Server
 
@@ -29,4 +29,4 @@ The server will now be running on the specified host and port (e.g., http://127.
 
 Place your PHP files in the "htdocs" directory.
 
-Access PHP files through your web browser (e.g., http://localhost:2728/yourfile.php).
+Access PHP files through your web browser (e.g., http://localhost:2728/add.php).
