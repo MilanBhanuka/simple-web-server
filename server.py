@@ -66,7 +66,7 @@ def webserver(host,port):
                                           phpCode = phpFile.read()
 
                                     directoryPath = os.path.dirname(fileLocation)
-                                    fileName = "."+"temp"+"_"+os.path.basename(fileLocation)
+                                    fileName = "."+"temp"+os.path.basename(fileLocation)
                                     fileLocation = os.path.join(directoryPath,fileName)
                                     tempFileLocation = fileLocation
 
